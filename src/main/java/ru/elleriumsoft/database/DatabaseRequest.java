@@ -1,4 +1,4 @@
-package ru.elleriumsoft;
+package ru.elleriumsoft.database;
 
 import java.sql.Connection;
 import java.sql.SQLException;

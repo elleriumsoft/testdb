@@ -1,6 +1,7 @@
-package ru.elleriumsoft;
+package ru.elleriumsoft.database.requests;
 
 import org.apache.log4j.Logger;
+import ru.elleriumsoft.database.DatabaseRequest;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
