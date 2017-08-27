@@ -20,7 +20,7 @@ public class SimpleGetTable implements DatabaseRequest
         ResultSet rs = connection.prepareStatement("select * from players").executeQuery();
         while (rs.next())
         {
-            logger.info(rs.getInt(1) + "," + rs.getString(2));
+            logger.info(rs.getInt(1) + "," + rs.getString(2) + "," + rs.getInt(3));
         }
     }
 }
